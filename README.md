@@ -8,12 +8,14 @@ This repository aims to document the Lunetta-style modular CMOS synth I'm buildi
 
 For now, this stuff is only provided publicly to solicit feedback. Depending on the quality of the completed synth and community interest, maybe I'll turn it into a proper open hardware project fit for human consumption one day. But for now, nobody should reproduce those builds, nor even attempt to learn something from them. I literally didn't know how to make a LED emit light rather than smoke at the start of 2022. I have no clue what I'm doing.
 
-There's only docs for now. 3D print stuff, schematics, wiring diagrams, and PCB designs later.
+Software you need to open the source files I'm sharing:
+- Schematics use [KiCad](https://www.kicad.org/)
+- Layouts use [DIY Layout Creator](http://diy-fever.com/software/diylc/)
+- 3D prints use [FreeCAD](https://www.freecadweb.org/)
 
 If you want to learn more about CMOS synths, your best introduction is [Elliot Williams' Logic Noise series](https://hackaday.com/series_of_posts/logic-noise/), then to dig deeper, visit the [Lunetta forums on electro-music.com](https://electro-music.com/forum/forum-160.html), and read the in-depth documentation of the [Castle Rocktronics](http://castlerocktronics.com/modular.html) modules. 
 
 I document my build process [in a thread on the Look Mum No Computer forum](https://lookmumnocomputer.discourse.group/t/starting-a-little-cmos-synth-build/5375/), post the infrequent video [on my Youtube](https://www.youtube.com/c/AriaSalvatrice), and post [excessively detailed updates in between the gay shitposts on my personal Tweeter that nobody should follow](https://twitter.com/AriaSalvatrice). 
-
 
 ## Design Goals
 
@@ -32,13 +34,11 @@ As all the guts are exposed, the aesthetics of the PCBs are important. When perf
 
 The system runs on +12V DC. It will also work on +9V, but the values are tuned for +12V, so pitches and envelopes are different at +9V. Some of the circuits I made no longer seem to work at +5V. I picked +12V to make it easier to integrate to a modular synth in the future. There is no dedicated power module yet, it runs off a bench PSU.
 
-Most of the circuits used were designed by much more competent people. Individual credits will be provided as I share schematics.
-
 To keep the patches readable for the performer, most of the hardwiring is run below the boards. 
 
 ![Wiring](docs/images/wiring.jpg)
 
-Most of the designs I share are flawed in some ways. Feel free to look at my learning process, but do not treat my schematics and layouts as instructions yielding an usable product.
+Most of the circuits used were designed by much more competent people and shared under permissive terms. Individual credits are provided for each module. If you want to learn, learn from the originals, not from my stuff.
 
 
 ## Mechanical Design
@@ -64,7 +64,6 @@ Here's the main measurements (will add more as I confirm them precisely):
 | Spacing between modules | 0.8 mm | Currently, 120×120mm modules don't account for this properly.
 
 
-
 ## Custom Protoboard
 
 I made a little (99×99mm) prototype board for this project that imitates a breadboard layout. Revision 1 has various mistakes, I will document it better when I do a revision 2. 
@@ -79,7 +78,9 @@ lol
 
 -----------
 
-Thanxx for peeping my project. Send me thoughts and dog gifs to <woof@aria.dog>.
+Thanxx for peeping my project. Feel free to look at my learning process, but do not treat my schematics and layouts as instructions yielding an usable product.
+
+Send me thoughts and dog gifs to <woof@aria.dog>.
 
 ttyl,
 
