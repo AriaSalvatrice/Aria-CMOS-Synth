@@ -38,6 +38,8 @@ To keep the patches readable for the performer, most of the hardwiring is run be
 
 ![Wiring](docs/images/wiring.jpg)
 
+Most of the designs I share are flawed in some ways. Feel free to look at my learning process, but do not treat my schematics and layouts as instructions yielding an usable product.
+
 
 ## Mechanical Design
 
