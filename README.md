@@ -1,30 +1,76 @@
 # Aria Salvatrice's WIP CMOS Synth
 
-This repository aims to document the Lunetta-style CMOS synth I'm building to learn more about electronics. 
+This repository aims to document the Lunetta-style modular CMOS synth I'm building to learn more about electronics. 
 
-This stuff is are currently provided publicly exclusively to solicit feedback. Depending on the quality of the completed synth and community interest, maybe I'll turn it into a proper open hardware project fit for human consumption one day. But for now, nobody should reproduce those builds, nor even attempt to learn something from them. I literally didn't know how to make a LED emit light rather than smoke at the start of 2022. I have no clue what I'm doing.
+![Overall view of a system with a few modules](docs/images/full-system.jpg)
+
+[Here's a little video of the system with sound](https://www.youtube.com/watch?v=DDcZ8vBI-KA&), I'll try to post a better one recorded properly soon.
+
+For now, this stuff is only provided publicly to solicit feedback. Depending on the quality of the completed synth and community interest, maybe I'll turn it into a proper open hardware project fit for human consumption one day. But for now, nobody should reproduce those builds, nor even attempt to learn something from them. I literally didn't know how to make a LED emit light rather than smoke at the start of 2022. I have no clue what I'm doing.
 
 If you want to learn more about CMOS synths, your best introduction is [Elliot Williams' Logic Noise series](https://hackaday.com/series_of_posts/logic-noise/), then to dig deeper, the [Lunetta forums on electro-music.com](https://electro-music.com/forum/forum-160.html). 
 
 I document my build [in a thread on the Look Mum No Computer forum](https://lookmumnocomputer.discourse.group/t/starting-a-little-cmos-synth-build/5375/), post the infrequent video [on my Youtube](https://www.youtube.com/c/AriaSalvatrice), and post [excessively detailed updates in between the gay shitposts on my personal Tweeter that nobody should follow](https://twitter.com/AriaSalvatrice). 
 
 
-## Overall Design
+## Design Goals
 
-All the guts of the synth are exposed as bare PCBs with male header pins, that the performer patches with female DuPont cables. 
+Mostly learning electronics for myself, and ending up with a neat little rhythm machine, for now. But it'd be cool if I could eventually turn the best circuits into multiple dedicated PCBs, that you could wire up either with pin headers, or cables going to banana jacks on a panel for a more traditional Lunetta setup.
 
-The system runs on +12V DC. It currently would also work on +9V, but the values are tuned for +12V, so pitches and envelopes are different at +9V.
 
-The modules tile to an approximate 60×60mm grid.
+## Electrical Design
+
+All the guts of the synth are exposed as bare PCBs with male header pins, that the performer patches with female DuPont cables. The small size makes it unsuited for live patching, but exceptionally well suited to experimentation with breadboards.
+
+![Extending the system with breadboards](docs/images/integrating-breadboards.jpg)
+
+As all the guts are exposed, the aesthetics of the PCBs are important. When performing on video, they must provide a fun and colorful visual spectacle. 
+
+![The aesthetics of the build are important](docs/images/aesthetics.jpg)
+
+The system runs on +12V DC. It will also work on +9V, but the values are tuned for +12V, so pitches and envelopes are different at +9V. Some of the circuits I made no longer seem to work at +5V. I picked 12V to make it easier to integrate to a modular synth in the future. There is no dedicated power module yet, it runs of a bench PSU.
+
+To keep the patches readable for the performer, most of the hardwiring is run below the boards. 
+
+![Wiring](docs/images/wiring.jpg)
 
 
 ## Mechanical Design
 
 The modules are currently printed with PLA. The models were made with FreeCAD. As I don't know FreeCAD well, they are not very well made and can require some post-processing in Blender, the main value of the FreeCAD project is to have a set of measurements that works pretty well. 
 
+The modules tile to an approximate 60×60mm grid. This allows integrating 100×100mm PCBs in 120×120mm modules comfortably, the maximum size for which some PCB fab houses cut you a special deal for minimum quantity orders.
+
+![Assembly of modules](docs/images/assembly.png)
+
+The modules are held together by their feet with little holding rings that look like buttons, taking countersunk screws. The holes in the feet of modules are reinforced with heat set inserts.
+
+![Holding ring from below](docs/images/holding-ring-from-below.jpg)
+
+The models should not require a particularly well tuned printer to make. Most can be printed without supports and don't require much post-processing.
+
+Here's the main measurements (will add more as I confirm them precisely):
+
+| Dimension Name | Value | Comments |
+|----------------|-------|----------|
+| Grid size | 60 × 60 mm 
+| Height of modules | 18mm | Tall enough for vertical headers below the boards, but angled are preferred.
+| Spacing between modules | 0.8 mm | Currently, 120×120mm modules don't account for this properly.
+
+
 
 ## Custom Protoboard
 
 I made a little prototype board for this project that imitates a breadboard layout. Revision 1 has various mistakes, I will document it better when I do a revision 2. 
 
-— Aria Salvatrice <mailto:woof@aria.dog>
+![Picture of the protoboards Rev 1](docs/images/protoboard-rev1.jpg)
+
+There's built-in reverse voltage protection, a status LED, a main decoupling capacitor, room for 6 potentiometers or tactile buttons, and two half-breadboard layouts stacked over each other, with power rails.
+
+-----------
+
+Thanxx for peeping my project. Send me thoughts and dog gifs to <woof@aria.dog>.
+
+ttyl,
+
+![Aria Salvatrice](docs/images/signature.png)
