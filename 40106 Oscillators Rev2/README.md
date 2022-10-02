@@ -7,6 +7,8 @@ The oscillators are [based on the Logic Noise series](https://hackaday.com/2015/
 
 To fill the space, there are also passive mults, LDRs, pushbuttons, and a pair of vactrol LPG, I cribbed [the schematics from Mystic Circuits](https://github.com/mysticcircuits/0HP_Modular/tree/master/Hardware/0HP%20Vactrol%20LPG-VCA). The vactrols are handmade with a LDR and a LED in heat shrink tubing. They need decent current to work, not everything in my system manages to ping them properly, so I wanna remake that part better later.
 
+While the Rev Log pots specified will yield better results, I used Linear, not having anything else in stock.
+
 I made a Rev 1 of it previously, but it's too flawed to bother documenting.
 
 ![Photo of the module](40106%20Photo.jpg)    
