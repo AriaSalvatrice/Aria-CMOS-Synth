@@ -8,3 +8,7 @@ Built for a 60×40 mm perfboard, drilled to fit a mini-jack. Wear a respirator w
 I made the mixer separately. Its design has a fatal flaw so I will not bother to document it.
 
 ![Photo of the module](Output%20Module%20Photo.jpg)
+
+------
+
+_This repository documents my learning process. I advise against building those circuits or learning from them. See the [main README file](../README.md) for more information._

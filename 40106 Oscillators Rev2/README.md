@@ -11,3 +11,7 @@ I made a Rev 1 of it previously, but it's too flawed to bother documenting.
 
 ![Photo of the module](40106%20Photo.jpg)    
 Rev 2 on the left, Rev 1 immediately to its right.
+
+------
+
+_This repository documents my learning process. I advise against building those circuits or learning from them. See the [main README file](../README.md) for more information._

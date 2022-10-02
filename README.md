@@ -28,7 +28,7 @@ All the guts of the synth are exposed as bare PCBs with male header pins, that t
 
 ![Extending the system with breadboards](docs/images/integrating-breadboards.jpg)
 
-As all the guts are exposed, the aesthetics of the PCBs are important. When performing on video, they must provide a fun and colorful visual spectacle. 
+As there are no panels, the aesthetics of the PCBs are important. When performing on video, they must provide a fun and colorful visual spectacle with mucho Blinkenlichten. They must also double as a reasonably ergonomic user interface.
 
 ![The aesthetics of the build are important](docs/images/aesthetics.jpg)
 
@@ -66,7 +66,7 @@ Here's the main measurements (will add more as I confirm them precisely):
 
 ## Custom Protoboard
 
-I made a little (99×99mm) prototype board for this project that imitates a breadboard layout. Revision 1 has various mistakes, I will document it better when I do a revision 2. 
+I made a 99×99 mm prototype board for this project that imitates a breadboard layout. Revision 1 has various mistakes, I will document it better when I do a revision 2. 
 
 ![Picture of the protoboards Rev 1](docs/images/protoboard-rev1.jpg)
 
