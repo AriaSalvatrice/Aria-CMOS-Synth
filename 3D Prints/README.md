@@ -1,6 +1,6 @@
 3D Prints
 ---------
-The system tiles pretty well, but can use a bit of postprocessing help: a heat gun, 3D pen, and deburring tool can help obtain a better fit.
+The system tiles pretty well, but can use a tiny bit of postprocessing help: a heat gun, 3D pen, and deburring tool can help obtain a better fit.
 
 The feet of supports require M3 heat set inserts. A soldering iron is required to install them, only use an old tip you don't mind ruining.
 
@@ -17,11 +17,10 @@ Hold feet together. Takes countersunk M3×12mm screws.
 
 ### `./stl/Support - 60x40 perfboard - single support.stl`
 
-[UNVERIFIED MODEL] Print two per 40×60 mm perfboard, in the default side orientation that requires no supports. 
+[UNVERIFIED MODEL] Print two per 40×60 mm perfboard. In the default orientation, where it is printed on its side, it requires no supports. 
 
-For a smoother surface finish, can also be printed upside-down with small painted-on supports at the edge of PCB holder, as follows:
+For a smoother surface finish, it can alternatively be printed upside-down with small painted-on supports at the edge of PCB holder, as follows:
 
 ![](images/60x40%20upside-down.png)
 
-Note that two contiguous perfboards will almost touch, pads to their sides might be at risk of shorting if used. Secure with M2x12 screws.
-
+Secure boards with M2x12 screws. Note that two contiguous perfboards will almost touch, pads to their sides might be at risk of shorting if used. 
