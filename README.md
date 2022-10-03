@@ -2,7 +2,7 @@
 
 This repository aims to document the Lunetta-style modular CMOS synth I'm building to learn more about electronics. 
 
-![Overall view of a system with a few modules](docs/images/full-system.jpg)
+![Overall view of a system with a few modules](images/full-system.jpg)
 
 [Here's a little video of the system with sound](https://www.youtube.com/watch?v=DDcZ8vBI-KA&), I'll try to post a better one recorded properly soon.
 
@@ -26,17 +26,17 @@ Mostly learning electronics for myself, and ending up with a neat little rhythm 
 
 All the guts of the synth are exposed as bare PCBs with male header pins, that the performer patches with female DuPont cables. The small size makes it unsuited for live patching, but exceptionally well suited to experimentation with breadboards.
 
-![Extending the system with breadboards](docs/images/integrating-breadboards.jpg)
+![Extending the system with breadboards](images/integrating-breadboards.jpg)
 
 As there are no panels, the aesthetics of the PCBs are important. When performing on video, they must provide a fun and colorful visual spectacle with mucho Blinkenlichten. They must also double as a reasonably ergonomic user interface.
 
-![The aesthetics of the build are important](docs/images/aesthetics.jpg)
+![The aesthetics of the build are important](images/aesthetics.jpg)
 
 The system runs on +12V DC. It will also work on +9V, but the values are tuned for +12V, so pitches and envelopes are different at +9V. Some of the circuits I made no longer seem to work at +5V. I picked +12V to make it easier to integrate to a modular synth in the future. There is no dedicated power module yet, it runs off a bench PSU.
 
 To keep the patches readable for the performer, most of the hardwiring is run below the boards. 
 
-![Wiring](docs/images/wiring.jpg)
+![Wiring](images/wiring.jpg)
 
 Most of the circuits used were designed by much more competent people and shared under permissive terms. Individual credits are provided for each module. If you want to learn, learn from the originals, not from my stuff.
 
@@ -47,11 +47,11 @@ The modules are currently printed with PLA. The models were made with FreeCAD. A
 
 The modules tile to an approximate 60×60mm grid. This allows integrating 100×100mm PCBs in 120×120mm modules comfortably, the maximum size for which some PCB fab houses cut you a special deal for minimum quantity orders.
 
-![Assembly of modules](docs/images/assembly.png)
+![Assembly of modules](images/assembly.png)
 
 The modules are held together by their feet with little holding rings that look like buttons, taking countersunk screws. The holes in the feet of modules are reinforced with heat set inserts.
 
-![Holding ring from below](docs/images/holding-ring-from-below.jpg)
+![Holding ring from below](images/holding-ring-from-below.jpg)
 
 The models should not require a particularly well tuned printer to make. Most can be printed without supports and don't require much post-processing.
 
@@ -68,7 +68,7 @@ Here's the main measurements (will add more as I confirm them precisely):
 
 I made a 99×99 mm prototype board for this project that imitates a breadboard layout. Revision 1 has various mistakes, I will document it better when I do a revision 2. 
 
-![Picture of the protoboards Rev 1](docs/images/protoboard-rev1.jpg)
+![Picture of the protoboards Rev 1](images/protoboard-rev1.jpg)
 
 There's built-in reverse voltage protection, a status LED, a main decoupling capacitor, room for 6 potentiometers or tactile buttons, and two half-breadboard layouts stacked over each other, with power rails.
 
@@ -84,4 +84,4 @@ Send me thoughts and dog gifs to <woof@aria.dog>.
 
 ttyl,
 
-![Aria Salvatrice](docs/images/signature.png)
+![Aria Salvatrice](images/signature.png)

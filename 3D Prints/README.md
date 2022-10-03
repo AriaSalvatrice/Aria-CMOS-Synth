@@ -13,9 +13,15 @@ A messy and exploratory file, as I don't know FreeCAD much yet. Still, might be 
 
 ### `./stl/Holding Ring.stl`
 
-Hold feet together. Take countersunk M3×12mm screws.
+Hold feet together. Takes countersunk M3×12mm screws.
 
 ### `./stl/Support - 60x40 perfboard - single support.stl`
 
-Print two per 40×60 mm perfboard, upside-down, with supports. There is a bit of tolerance to account for debris left by the supports. Note that two contiguous perfboards will almost touch, pads to their sides might be at risk of shorting if used. Secure with M2 screws (FIXME: confirm height, I think M2×12).
+[UNVERIFIED MODEL] Print two per 40×60 mm perfboard, in the default side orientation that requires no supports. 
+
+For a smoother surface finish, can also be printed upside-down with small painted-on supports at the edge of PCB holder, as follows:
+
+![](images/60x40%20upside-down.png)
+
+Note that two contiguous perfboards will almost touch, pads to their sides might be at risk of shorting if used. Secure with M2x12 screws.
 
