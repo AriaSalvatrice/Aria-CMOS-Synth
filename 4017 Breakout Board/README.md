@@ -1,5 +1,5 @@
-4017 Breakout Board
--------------------
+4017 Breakout Board Rev1
+------------------------
 
 8-step counter.
 

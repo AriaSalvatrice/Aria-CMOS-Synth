@@ -1,5 +1,5 @@
-4040 Breakout Board
--------------------
+4040 Breakout Board Rev1
+------------------------
 
 The 4040 binary counter can be used to divide a lock or to generate sub-oscillators.
 
