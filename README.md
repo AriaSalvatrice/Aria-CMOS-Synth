@@ -69,15 +69,6 @@ Here's the main measurements (will add more as I confirm them precisely):
 | Spacing between modules | 0.8 mm | Currently, 120×120mm modules don't account for this properly.
 
 
-## Custom Protoboard
-
-I made a 99×99 mm prototype board for this project that imitates a breadboard layout. Revision 1 has various mistakes, I will document it better when I do a revision 2. 
-
-![Picture of the protoboards Rev 1](images/protoboard-rev1.jpg)
-
-There's built-in reverse voltage protection, a status LED, a main decoupling capacitor, room for 6 potentiometers or tactile buttons, and two half-breadboard layouts stacked over each other, with power rails.
-
-
 ## Licensing
 
 lol

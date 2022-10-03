@@ -1,11 +1,13 @@
 Protoboard Rev2 WIP
 -------------------
 
-Inspired by commercialy available Pemanent Prototype boards, and [Analog Output's Protoboard for Eurorack and Kosmo](https://github.com/holmesrichards/Protoboard). 
+Inspired by commercialy available Pemanent Prototype boards, and [Analog Output's Protoboard for Eurorack and Kosmo](https://github.com/holmesrichards/Protoboard). It's 99×99 mm, to get the best deal from PCB fab houses.
+
+There's built-in reverse voltage protection, a status LED, a main decoupling capacitor, room for 6 potentiometers or tactile buttons, and two half-breadboard layouts stacked over each other, with power rails.
 
 ![3D view](Prototype%20Board%203D%20View.png)
 
-These are the WIP files for Rev2, still a lot of work to do to improve. 
+These are the WIP files for Rev2, still a lot of work to do to finish it. 
 
 ![Photo of the module](Protoboard%20Photo.jpg)
 
