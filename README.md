@@ -17,9 +17,9 @@ Other than this file repository, I document my build process [in a thread on the
 
 ## About Lunetta and CMOS synths
 
-CMOS synths primarily focus primarily on the interactions of the CMOS 4000 series of chips, which deal with digital logic, signals that are either high or low. They are sometimes named after [Stanley Lunetta](http://moosack.net/), who pioneered this style of circuits, regarding his builds as sound sculptures. 
+CMOS synths primarily focus primarily on exploring the interactions of the CMOS 4000 series of chips, which deal with digital logic, signals that are either high or low. Compared to more advanced synth DIY endeavors, they are rather easy to build and understand, cheap to make, and reward experimentation. They are sometimes named after [Stanley Lunetta](http://moosack.net/), who pioneered this style of circuit, and called his work _sound sculptures_. 
 
-Your best introduction to musical applications of CMOS chips would be [Elliot Williams' Logic Noise series](https://hackaday.com/series_of_posts/logic-noise/). To dig deeper, visit the [Lunetta forums on electro-music.com](https://electro-music.com/forum/forum-160.html), and read the in-depth documentation of the [Castle Rocktronics](http://castlerocktronics.com/modular.html) modules. 
+Your best introduction to musical applications of CMOS chips would be [Elliot Williams' Logic Noise series](https://hackaday.com/series_of_posts/logic-noise/). To dig deeper, explore over a decade of archives in the [Lunetta forums on electro-music.com](https://electro-music.com/forum/forum-160.html), and read the in-depth circuit analyses of the [Castle Rocktronics](http://castlerocktronics.com/modular.html) modules. 
 
 
 ## Design Goals
