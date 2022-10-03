@@ -1,6 +1,8 @@
 # For PCBs designed using KiCad: http://www.kicad-pcb.org/
 # Format documentation: http://kicad-pcb.org/help/file-formats/
 
+# This automatically generated gitignore seems a bit outdated, should clean it up
+
 # Temporary files
 *.000
 *.bak
@@ -14,6 +16,7 @@ _autosave-*
 *-save.kicad_pcb
 fp-info-cache
 *-backups
+*.kicad_prl
 
 # Netlist files (exported from Eeschema)
 *.net
