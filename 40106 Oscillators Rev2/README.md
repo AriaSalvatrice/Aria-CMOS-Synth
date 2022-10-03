@@ -1,6 +1,8 @@
 40106 Oscillators Rev2
 ----------------------
 
+Six voltage-controlled oscillators, 2 LFO, 2 in the lower audio range, and 2 in the higher audio range. Square and triangle wave outputs. 
+
 This build is meant to use my Perma-Proto PCBs Rev1. 
 
 The oscillators are [based on the Logic Noise series](https://hackaday.com/2015/03/09/logic-noise-sawing-away-with-analog-waveforms/). The [schematics from Castle Rocktronics were also used](http://castlerocktronics.com/modular/articles/CR-001_-_4xSQUARE.pdf). It's worth noting that when using all inverters on a 40106, they will have a fairly noticeable amount of cross-talk.
