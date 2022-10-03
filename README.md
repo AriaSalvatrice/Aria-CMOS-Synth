@@ -9,13 +9,18 @@ This repository aims to document the Lunetta-style modular CMOS synth I'm buildi
 For now, this stuff is only provided publicly to solicit feedback. Depending on the quality of the completed synth and community interest, maybe I'll turn it into a proper open hardware project fit for human consumption one day. But for now, nobody should reproduce those builds, nor even attempt to learn something from them. I literally didn't know how to make a LED emit light rather than smoke at the start of 2022. I have no clue what I'm doing.
 
 Software you need to open the source files I'm sharing:
-- Schematics use [KiCad](https://www.kicad.org/)
+- Schematics use [KiCad](https://www.kicad.org/) 6.99+
 - Layouts use [DIY Layout Creator](http://diy-fever.com/software/diylc/)
 - 3D prints use [FreeCAD](https://www.freecadweb.org/)
 
-If you want to learn more about CMOS synths, your best introduction is [Elliot Williams' Logic Noise series](https://hackaday.com/series_of_posts/logic-noise/), then to dig deeper, visit the [Lunetta forums on electro-music.com](https://electro-music.com/forum/forum-160.html), and read the in-depth documentation of the [Castle Rocktronics](http://castlerocktronics.com/modular.html) modules. 
+Other than this file repository, I document my build process [in a thread on the Look Mum No Computer forum](https://lookmumnocomputer.discourse.group/t/starting-a-little-cmos-synth-build/5375/), post the infrequent video [on my Youtube](https://www.youtube.com/c/AriaSalvatrice), sometimes lurk [/r/synthdiy](https://old.reddit.com/r/synthdiy/), and spam [excessively detailed updates in between the gay shitposts on my personal Tweeter that nobody should follow](https://twitter.com/AriaSalvatrice). 
 
-I document my build process [in a thread on the Look Mum No Computer forum](https://lookmumnocomputer.discourse.group/t/starting-a-little-cmos-synth-build/5375/), post the infrequent video [on my Youtube](https://www.youtube.com/c/AriaSalvatrice), and post [excessively detailed updates in between the gay shitposts on my personal Tweeter that nobody should follow](https://twitter.com/AriaSalvatrice). 
+## About Lunetta and CMOS synths
+
+CMOS synths primarily focus primarily on the interactions of the CMOS 4000 series of chips, which deal with digital logic, signals that are either high or low. They are sometimes named after [Stanley Lunetta](http://moosack.net/), who pioneered this style of circuits, regarding his builds as sound sculptures. 
+
+Your best introduction to musical applications of CMOS chips would be [Elliot Williams' Logic Noise series](https://hackaday.com/series_of_posts/logic-noise/). To dig deeper, visit the [Lunetta forums on electro-music.com](https://electro-music.com/forum/forum-160.html), and read the in-depth documentation of the [Castle Rocktronics](http://castlerocktronics.com/modular.html) modules. 
+
 
 ## Design Goals
 
@@ -71,6 +76,7 @@ I made a 99×99 mm prototype board for this project that imitates a breadboard l
 ![Picture of the protoboards Rev 1](images/protoboard-rev1.jpg)
 
 There's built-in reverse voltage protection, a status LED, a main decoupling capacitor, room for 6 potentiometers or tactile buttons, and two half-breadboard layouts stacked over each other, with power rails.
+
 
 ## Licensing
 
