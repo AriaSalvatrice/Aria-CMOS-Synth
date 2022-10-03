@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8128,
-          "height": 1.905,
-          "width": 1.905
+          "drill": 1.0,
+          "height": 1.8,
+          "width": 1.8
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -529,10 +529,6 @@
     [
       "111e120a-166a-43f5-a1d1-fa381b8bc9b2",
       ""
-    ],
-    [
-      "be21f883-7ef5-4138-8619-4bfa669037b1",
-      "Power Rails"
     ]
   ],
   "text_variables": {}
