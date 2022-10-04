@@ -2794,13 +2794,13 @@
       (reference "R18") (unit 1) (value "1K") (footprint "")
     )
     (path "/8e87017b-26eb-4e67-8335-de55a2924336"
-      (reference "R?") (unit 1) (value "100K") (footprint "")
-    )
-    (path "/e94fa7b8-4028-4869-8679-7fdb7f14a1d2"
-      (reference "R?") (unit 1) (value "100K") (footprint "")
+      (reference "R19") (unit 1) (value "100K") (footprint "")
     )
     (path "/fe8814d7-18e5-47a4-ae02-2edd55882835"
-      (reference "R?") (unit 1) (value "100K") (footprint "")
+      (reference "R20") (unit 1) (value "100K") (footprint "")
+    )
+    (path "/e94fa7b8-4028-4869-8679-7fdb7f14a1d2"
+      (reference "R21") (unit 1) (value "100K") (footprint "")
     )
     (path "/d7014435-7add-4f1f-8a27-25ad83cdab3c"
       (reference "U1") (unit 1) (value "4017") (footprint "Package_DIP:DIP-16_W7.62mm")
