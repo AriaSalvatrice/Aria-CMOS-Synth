@@ -1,5 +1,5 @@
-Protoboard Rev2 WIP
--------------------
+Protoboard Rev2B
+----------------
 
 Inspired by commercialy available Permanent Prototype boards, and [Analog Output's Protoboard for Eurorack and Kosmo](https://github.com/holmesrichards/Protoboard). It's 99×99 mm, to get the best deal from PCB fab houses.
 
@@ -7,11 +7,11 @@ There's built-in reverse voltage protection, a status LED, a main decoupling cap
 
 ![3D view](Prototype%20Board%203D%20View.png)
 
-These are the files for Rev2, which haven't been double-checked or sent to fabricate yet.
+These are the files for Rev2B. Rev2A has been sent to fabricate. Rev2B is the same with a minor correction (misaligned tracks) and has not been tested.
 
 ![Photo of the module](Protoboard%20Photo.jpg)
 
-This is a picture of Rev1, which has a few flaws (such as the status LED shorting if installed). It was my first PCB ever, so I'm happy it even worked at all.
+This is a picture of Rev1, which has a few flaws (such as the status LED shorting if populated). It was my first PCB ever, so I'm happy it even worked at all.
 
 ------
 
