@@ -2,9 +2,11 @@
 
 This repository aims to document the Lunetta-style modular CMOS synth I'm building to learn more about electronics. 
 
-![Overall view of a system with a few modules](images/full-system.jpg)
+Wanna see it in action?
 
-[Here's a little video of the system with sound](https://www.youtube.com/watch?v=DDcZ8vBI-KA&), I'll try to post a better one recorded properly soon.
+[![Video Thumbnail](images/video-thumbnail.jpg)](https://youtu.be/UeoF3UkMkqE)
+
+![Overall view of a system with a few modules](images/full-system.jpg)
 
 For now, this stuff is only provided publicly to solicit feedback. Depending on the quality of the completed synth and community interest, maybe I'll turn it into a proper open hardware project fit for human consumption one day. But for now, nobody should reproduce those builds, nor even attempt to learn something from them. I literally didn't know how to make a LED emit light rather than smoke at the start of 2022. I have no clue what I'm doing.
 
