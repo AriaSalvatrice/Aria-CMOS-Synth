@@ -23,4 +23,4 @@ For a smoother surface finish, it can alternatively be printed upside-down with 
 
 ![](images/60x40%20upside-down.png)
 
-Secure boards with M2x12 screws. Note that two contiguous perfboards will almost touch, pads to their sides might be at risk of shorting if used. 
+Secure boards with M2x12 screws and nuts. Note that two contiguous perfboards will almost touch, pads to their sides might be at risk of shorting if used. 
